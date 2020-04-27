@@ -1,1 +1,0 @@
-./googleanalyticsbeat -c googleanalyticsbeat.yml -e -d "*"
