@@ -6,6 +6,19 @@ googleanalyticsbeat:
   # Defines how often an event is sent to the output
   period: 1s
 
+googleanalyticsbeat.googleanalytics:
+    # Documentation for the Google Analytics Realtime API:
+    # https://developers.google.com/analytics/devguides/reporting/realtime/v3/
+    # Documentation explaining OAuth2 Service Account flow and how code works
+    # https://developers.google.com/accounts/docs/OAuth2ServiceAccount
+    google_credentials_file: /home/jimmino/key.json
+    # replace ga_ids with your metric ID from GA
+    ga_ids: "ga:149209755"
+    # Docs on available metrics and dimensions can be found here:
+    # https://developers.google.com/analytics/devguides/reporting/realtime/dimsmets/
+    ga_metrics: "rt:pageviews"
+    ga_dimensions: "rt:pageTitle"
+
 #================================ General =====================================
 
 # The name of the shipper that publishes the network data. It can be used to group
@@ -44,7 +57,7 @@ setup.kibana:
   # Scheme and port can be left out and will be set to the default (http and 5601)
   # In case you specify and additional path, the scheme is required: http://localhost:5601/path
   # IPv6 addresses should always be defined as: https://[2001:db8::1]:5601
-  #host: "localhost:5601"
+  host: "localhost:5601"
 
   # Kibana Space ID
   # ID of the Kibana Space into which the dashboards should be loaded. By default,
