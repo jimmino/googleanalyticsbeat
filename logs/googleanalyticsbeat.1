@@ -1,0 +1,39 @@
+2020-04-27T15:17:52.866+0200	INFO	instance/beat.go:609	Home path: [/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat] Config path: [/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat] Data path: [/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat/data] Logs path: [/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat/logs]
+2020-04-27T15:17:52.867+0200	INFO	instance/beat.go:617	Beat ID: 64870988-aac5-4016-ac1f-b3af6f03e124
+2020-04-27T15:17:52.904+0200	INFO	[seccomp]	seccomp/seccomp.go:124	Syscall filter successfully installed
+2020-04-27T15:17:52.904+0200	INFO	[beat]	instance/beat.go:945	Beat info	{"system_info": {"beat": {"path": {"config": "/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat", "data": "/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat/data", "home": "/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat", "logs": "/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat/logs"}, "type": "googleanalyticsbeat", "uuid": "64870988-aac5-4016-ac1f-b3af6f03e124"}}}
+2020-04-27T15:17:52.904+0200	INFO	[beat]	instance/beat.go:954	Build info	{"system_info": {"build": {"commit": "unknown", "libbeat": "8.0.0", "time": "1754-08-30T22:43:41.128Z", "version": "8.0.0"}}}
+2020-04-27T15:17:52.904+0200	INFO	[beat]	instance/beat.go:957	Go runtime info	{"system_info": {"go": {"os":"linux","arch":"amd64","max_procs":4,"version":"go1.13.8"}}}
+2020-04-27T15:17:52.905+0200	INFO	[beat]	instance/beat.go:961	Host info	{"system_info": {"host": {"architecture":"x86_64","boot_time":"2020-04-27T13:36:04+02:00","containerized":false,"name":"ubuntu","ip":["127.0.0.1/8","::1/128","192.168.1.254/24","fe80::8a47:e866:15a6:575e/64","172.17.0.1/16","172.19.0.1/16","172.20.0.1/16","fe80::42:90ff:fe35:9a77/64","172.18.0.1/16","fe80::e8d2:a2ff:fe3e:3d17/64","fe80::9431:57ff:fe63:98ad/64"],"kernel_version":"5.4.0-21-generic","mac":["f8:94:c2:d6:0c:68","02:42:c7:c7:8c:39","02:42:9b:ab:f1:8a","02:42:90:35:9a:77","02:42:21:6b:81:2d","ea:d2:a2:3e:3d:17","96:31:57:63:98:ad"],"os":{"family":"debian","platform":"ubuntu","name":"Ubuntu","version":"20.04 LTS (Focal Fossa)","major":20,"minor":4,"patch":0,"codename":"focal"},"timezone":"CEST","timezone_offset_sec":7200,"id":"722d3d4996674cbe9de935c1a7020865"}}}
+2020-04-27T15:17:52.905+0200	INFO	[beat]	instance/beat.go:990	Process info	{"system_info": {"process": {"capabilities": {"inheritable":null,"permitted":null,"effective":null,"bounding":["chown","dac_override","dac_read_search","fowner","fsetid","kill","setgid","setuid","setpcap","linux_immutable","net_bind_service","net_broadcast","net_admin","net_raw","ipc_lock","ipc_owner","sys_module","sys_rawio","sys_chroot","sys_ptrace","sys_pacct","sys_admin","sys_boot","sys_nice","sys_resource","sys_time","sys_tty_config","mknod","lease","audit_write","audit_control","setfcap","mac_override","mac_admin","syslog","wake_alarm","block_suspend","audit_read"],"ambient":null}, "cwd": "/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat", "exe": "/home/jimmino/go/src/github.com/jimmino/googleanalyticsbeat/googleanalyticsbeat", "name": "googleanalytics", "pid": 9074, "ppid": 7181, "seccomp": {"mode":"filter","no_new_privs":true}, "start_time": "2020-04-27T15:17:52.110+0200"}}}
+2020-04-27T15:17:52.906+0200	INFO	instance/beat.go:296	Setup Beat: googleanalyticsbeat; Version: 8.0.0
+2020-04-27T15:17:52.906+0200	INFO	[index-management]	idxmgmt/std.go:182	Set output.elasticsearch.index to 'googleanalyticsbeat-8.0.0' as ILM is enabled.
+2020-04-27T15:17:52.906+0200	INFO	eslegclient/connection.go:88	elasticsearch url: http://localhost:9200
+2020-04-27T15:17:52.906+0200	INFO	[publisher]	pipeline/module.go:110	Beat name: ubuntu
+2020-04-27T15:17:52.906+0200	INFO	instance/beat.go:437	googleanalyticsbeat start running.
+2020-04-27T15:17:52.906+0200	INFO	beater/GoogleAnalyticsBeat.go:40	googleanalyticsbeat is running! Hit CTRL-C to stop it.
+2020-04-27T15:17:52.906+0200	INFO	[monitoring]	log/log.go:118	Starting metrics logging every 30s
+2020-04-27T15:17:55.869+0200	INFO	[add_cloud_metadata]	add_cloud_metadata/add_cloud_metadata.go:89	add_cloud_metadata: hosting provider type not detected.
+2020-04-27T15:17:56.870+0200	INFO	[publisher_pipeline_output]	pipeline/output.go:135	Connecting to backoff(elasticsearch(http://localhost:9200))
+2020-04-27T15:17:56.870+0200	INFO	[publisher]	pipeline/retry.go:221	retryer: send unwait signal to consumer
+2020-04-27T15:17:56.870+0200	INFO	[publisher]	pipeline/retry.go:225	  done
+2020-04-27T15:17:56.918+0200	INFO	[esclientleg]	eslegclient/connection.go:277	Attempting to connect to Elasticsearch version 7.6.2
+2020-04-27T15:17:56.921+0200	INFO	[esclientleg]	eslegclient/connection.go:277	Attempting to connect to Elasticsearch version 7.6.2
+2020-04-27T15:17:56.942+0200	INFO	[index-management]	idxmgmt/std.go:258	Auto ILM enable success.
+2020-04-27T15:17:56.946+0200	INFO	[index-management.ilm]	ilm/std.go:139	do not generate ilm policy: exists=true, overwrite=false
+2020-04-27T15:17:56.946+0200	INFO	[index-management]	idxmgmt/std.go:271	ILM policy successfully loaded.
+2020-04-27T15:17:56.946+0200	INFO	[index-management]	idxmgmt/std.go:410	Set setup.template.name to '{googleanalyticsbeat-8.0.0 {now/d}-000001}' as ILM is enabled.
+2020-04-27T15:17:56.946+0200	INFO	[index-management]	idxmgmt/std.go:415	Set setup.template.pattern to 'googleanalyticsbeat-8.0.0-*' as ILM is enabled.
+2020-04-27T15:17:56.946+0200	INFO	[index-management]	idxmgmt/std.go:449	Set settings.index.lifecycle.rollover_alias in template to {googleanalyticsbeat-8.0.0 {now/d}-000001} as ILM is enabled.
+2020-04-27T15:17:56.947+0200	INFO	[index-management]	idxmgmt/std.go:453	Set settings.index.lifecycle.name in template to {googleanalyticsbeat {"policy":{"phases":{"hot":{"actions":{"rollover":{"max_age":"30d","max_size":"50gb"}}}}}}} as ILM is enabled.
+2020-04-27T15:17:56.953+0200	INFO	template/load.go:89	Template googleanalyticsbeat-8.0.0 already exists and will not be overwritten.
+2020-04-27T15:17:56.953+0200	INFO	[index-management]	idxmgmt/std.go:295	Loaded index template.
+2020-04-27T15:17:56.956+0200	INFO	[index-management]	idxmgmt/std.go:306	Write alias successfully generated.
+2020-04-27T15:17:56.959+0200	INFO	[publisher_pipeline_output]	pipeline/output.go:143	Connection to backoff(elasticsearch(http://localhost:9200)) established
+2020-04-27T15:18:01.707+0200	ERROR	instance/metrics.go:92	Error while getting memory usage: error retrieving process stats: cannot find matching process for pid=9074
+2020-04-27T15:18:01.707+0200	ERROR	instance/metrics.go:136	Error retrieving CPU percentages: error retrieving process stats: cannot find matching process for pid=9074
+2020-04-27T15:18:01.708+0200	ERROR	instance/metrics_file_descriptors.go:39	Error while retrieving FD information: error retrieving process stats: cannot find matching process for pid=9074
+2020-04-27T15:18:01.708+0200	INFO	[monitoring]	log/log.go:153	Total non-zero metrics	{"monitoring": {"metrics": {"beat":{"info":{"ephemeral_id":"c72a66ad-92d9-4c34-81f4-57c2bb4bdd46","uptime":{"ms":8867}},"memstats":{"gc_next":6331360,"memory_alloc":3738408,"memory_total":9085208},"runtime":{"goroutines":17}},"libbeat":{"config":{"module":{"running":0}},"output":{"events":{"acked":7,"batches":3,"total":7},"type":"elasticsearch"},"pipeline":{"clients":0,"events":{"active":1,"published":8,"retry":3,"total":8},"queue":{"acked":7}}},"system":{"cpu":{"cores":4},"load":{"1":1.09,"15":1.36,"5":1.55,"norm":{"1":0.2725,"15":0.34,"5":0.3875}}}}}}
+2020-04-27T15:18:01.709+0200	INFO	[monitoring]	log/log.go:154	Uptime: 8.870219456s
+2020-04-27T15:18:01.709+0200	INFO	[monitoring]	log/log.go:131	Stopping metrics logging.
+2020-04-27T15:18:01.709+0200	INFO	instance/beat.go:443	googleanalyticsbeat stopped.
