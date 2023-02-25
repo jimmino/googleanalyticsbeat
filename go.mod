@@ -22,11 +22,10 @@ require (
 	github.com/dlclark/regexp2 v1.2.0 // indirect
 	github.com/dop251/goja v0.0.0-20200414142002-77e84ffb8c65 // indirect
 	github.com/dop251/goja_nodejs v0.0.0-20200128125109-2d688c7e0ac4 // indirect
-	github.com/elastic/beats v7.6.2+incompatible
+	github.com/elastic/beats v7.6.2+incompatible // indirect
 	github.com/elastic/beats/v7 v7.0.0-alpha2.0.20200422123717-cdb20e2d770a
 	github.com/go-sourcemap/sourcemap v2.1.3+incompatible // indirect
 	github.com/golang/protobuf v1.4.0 // indirect
-	github.com/jimmino/GABeat v0.0.0-20200420145246-70e5d05dd861 // indirect
 	github.com/josephspurrier/goversioninfo v0.0.0-20200309025242-14b0ab84c6ca // indirect
 	github.com/magefile/mage v1.9.0
 	github.com/mitchellh/gox v1.0.1
@@ -39,10 +38,9 @@ require (
 	github.com/tsg/go-daemon v0.0.0-20200207173439-e704b93fd89b
 	go.uber.org/zap v1.14.1 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b
-	golang.org/x/net v0.0.0-20200421231249-e086a090c8fd // indirect
+	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200420163511-1957bb5e6d1f // indirect
-	golang.org/x/tools v0.0.0-20200422022333-3d57cf2e726e
+	golang.org/x/tools v0.1.12
 	google.golang.org/api v0.22.0
 	google.golang.org/genproto v0.0.0-20200420144010-e5e8543f8aeb // indirect
 	google.golang.org/grpc v1.29.0 // indirect
